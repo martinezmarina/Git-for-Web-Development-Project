@@ -96,9 +96,23 @@
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
-        
+        block elements always start on a new line and take up the full width of the page 
+        inline elements can share the same line and only take up the space that is needed, so you could
+        have multiple inline elements on the same line.
+        inline and block elements can be changed in css.
     2. What happens when an element is positioned absolutely? 
+        an element positioned absolutely is positioned relative to the nearest positioned ancestor, where something
+        positioned statically is positioned relative to the viewport, and something positioned sticky is relative 
+        to the users scroll.
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+        define the margins so that it takes up a certain amount of space on the screen and you could add padding so the
+        element has more width evenly all around or even specify how much padding or margin on top, bottom, left and right if you want.
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+        <div>, <h1>-<h6> and <p> are all display block by default
+        <span>, and <a> are display inline by default
+        <button> is displayed inline-block by default
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
-
+        element is surrounded by padding, the padding is surronded by a border and around the border you have a margin, 
+        you can define the width, height, color, thickness of these different areas of the element. You could also define 
+        what percentage of the screen they take up, defining the margin tells it how far away from the edges of the screen the element is.
+        
